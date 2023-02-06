@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="border-b-2 bg-white py-5 px-5">
+        <div class="flex justify-around">
+            <!-- logo -->
+            <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png" width="150"/>
+            <!-- Seach Bar -->
+            <div class="text-gray-500 relative hidden md:block" >
+                <input type="search" name="search" placeholder="Search" class="outline-none border focus:border-gray-400 rounded px-2 pl-8 py-1 bg-gray-100"/>
+                <i class="fa fa-search absolute left-0 ml-2 mt-2 pl-1"></i>
+            </div>
+
+            <!-- Buttons -->
+            <div class="space-x-2" >
+                <a href="#" class="inline-block bg-blue-500 text-white font-semi-bold px-2 py-1 rounded text-sm">Log in</a>
+                <a href="#" class="inline-block font-semi-bold px-2 py-1 rounded text-sm">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Section -->
+    <main class="bg-gray-100 h-screen bg-opacity-25" >
+        <div class="md:w-8/12 md:mx-auto">
+            <header class="flex items-center justify-center py-8 gap-5">
+                <div class="md:w-3/12 md:ml-16">
+                    <image src="https://images.unsplash.com/photo-1628563694622-5a76957fd09c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                        class="md:h-40 md:w-40 h-20 w-20 rounded-full border-2 border-pink-600 p-1"
+                    />
+                </div>
+
+                <div class="md:w-7/12 w-8/12 items-center">
+                    <div class="md:flex md:space-x-2 mb-4">
+                        <h2 class="text-3xl md:w-8/12 font-light inline-block">Lara Lorenzo</h2>
+                        <a href="" class="bg-blue-500 px-2 py-2 text-white font-semibold rounded block text-center w-3/12 md:w-4/12">follow </a>
+                    </div>
+                    <div>
+                        <!-- Profile Numbers -->
+                        <u class="hidden md:flex space-x-8 mt-4 list-none no-underline mb-3">
+                            <li>
+                                <span>200</span>
+                                posts
+                            </li>
+                            <li>
+                                <span>100k</span>
+                                Followers
+                            </li>
+                            <li>
+                                <span>1k</span>
+                                Following
+                            </li>
+                        </u>
+
+                        <div class="mt-4 hidden md:block">
+                            <h1 class="font-semibold" >Coding For hackers</h1>
+                            <span>Travel, Nature, Music</span>
+                            <p>Lorem Ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+            </header>
+            <div class="text-sm mb-2 md:hidden px-12">
+                <h1 class="font-semibold" >Coding For hackers</h1>
+                <span>Travel, Nature, Music</span>
+                <p>Lorem Ipsum dolor sit amet consectetur</p>
+            </div>
+
+            <!-- Header End -->
+            <!-- Profile numbers mobile -->
+            <div>
+                <ul class="flex md:hidden justify-around border-t text-gray-500 text-sm text-center">
+                    <li>
+                        <span class="font-semibold text-gray-800 block">200</span>
+                        Posts
+                    </li>
+                    <li>
+                        <span class="font-semibold text-gray-800 block">100k</span>
+                        followers
+                    </li>
+                    <li>
+                        <span class="font-semibold text-gray-800 block">400</span>
+                        Following
+                    </li>
+                </ul>
+
+                <ul class="flex justify-around md:justify-center space-x-12 uppercase text-gray-600 border-t">
+                    <li class="md:border-t md:border-gray-700">
+                        <a href="" class="inline-block">
+                            <i class="fas fa-th-large p-3 text-sm"></i>
+                            <span class="hidden md:inline text-xs">post</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="inline-block">
+                            <i class="fas fa-square p-3 text-sm" ></i>
+                            <span class="hidden md:inline text-xs">igtv</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="inline-block">
+                            <i class="fas fa-user p-3 text-sm" ></i>
+                            <span class="hidden md:inline text-xs">tagged</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <!-- Posts -->
+                <div class="md:flex md:flex-wrap">
+                    <div class="w-2/3 md:w-1/3 p-1 mx-auto" >
+                        <a href="">
+                            <article class="relative bg-[100%]" >
+                                <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+                                />
+                                <i class="fas fa-square absolute right-0 top-0 text-white m-1"></i>
+                            </article>
+                        </a>
+                    </div>
+
+                    <div class="w-2/3 md:w-1/3 p-1 mx-auto">
+                        <a href="">
+                            <article class="relative bg-[100%]" >
+                                <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+                                width="600px" height="600px"/>
+                                <i class="fas fa-square absolute right-0 top-0 text-white m-1"></i>
+                            </article>
+                        </a>
+                    </div>
+
+                    <div class="w-2/3 md:w-1/3 p-1 mx-auto" >
+                        <a href="">
+                            <article class="relative bg-[100%]">
+                                <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"/>
+                                <i class="fas fa-square absolute right-0 top-0 text-white m-1"></i>
+                            </article>
+                        </a>
+                    </div>
+
+                    <div class="w-2/3 md:w-1/3 p-1 mx-auto md:mx-0">
+                        <a href="">
+                            <article class="relative bg-[100%]">
+                                <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"/>
+                                <i class="fas fa-square absolute right-0 top-0 text-white m-1"></i>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
